@@ -1,0 +1,82 @@
+
+.gr-btn-primary,
+.gr-btn-secondary,
+.gr-btn-tertiary,
+.gr-btn-success,
+.gr-btn-warning,
+.gr-btn-danger {
+    --shadow: 0px 2px 5px 0px rgba(0,0,0,0.20);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+}
+
+.gr-btn-primary:hover,
+.gr-btn-secondary:hover,
+.gr-btn-tertiary:hover,
+.gr-btn-success:hover,
+.gr-btn-warning:hover,
+.gr-btn-danger:hover {
+    animation: waves 2s infinite;
+}
+
+.gr-btn-primary:active,
+.gr-btn-secondary:active,
+.gr-btn-tertiary:active,
+.gr-btn-success:active,
+.gr-btn-warning:active,
+.gr-btn-danger:active {
+    filter: brightness(125%);
+    transform: translateY(1px);
+}
+
+.gr-btn-primary {
+    background: var(--dark-blue);
+    color: aliceblue;
+}
+
+.gr-btn-secondary {
+    background: var(--blue);
+    color: aliceblue;
+}
+
+.gr-btn-tertiary {
+    background: none;
+    border: 2px solid var(--grey);
+    padding: 13px;
+    color: var(--grey);
+}
+
+.gr-btn-success {
+    background: #0cc386;
+    color: aliceblue;
+}
+
+.gr-btn-warning {
+    background: #f0a52e;
+    color: aliceblue;
+}
+
+.gr-btn-danger {
+    background: #d32727;
+    color: aliceblue;
+}
+
+@keyframes waves {
+    0% {
+        filter: brightness(115%);
+    }
+
+    50% {
+        filter: brightness(105%);
+    }
+
+    100% {
+        filter: brightness(115%);
+    }
+}

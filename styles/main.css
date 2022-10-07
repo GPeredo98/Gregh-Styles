@@ -1,0 +1,42 @@
+/* Gregh-Styles CSS classes */
+/* Author: Gabriel Alejandro Peredo Alvaro */
+/* Start date: 05/10/2022 */
+
+@import url('buttons.css');
+@import url('inputs.css');
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+
+* {
+    font-family: 'Open Sans';
+}
+
+/* Global variables */
+
+:root {
+    /* Colors */
+    --dark-blue: #000066;
+    --grey: #96A6CD;
+    --green: #07A5A1;
+    --sky-blue: #DAE4ff;
+    --blue: #3B50C9;
+    --light-grey: #EDF2FF;
+
+    /* Button styles */
+    --btn-padding: 0.875rem 2.75rem;
+    --btn-radius: 20px;
+
+    /* Gradients */
+    --gradient-blue-to-green: linear-gradient(253.91deg, #00CEC2 0%, #0096EB 100%);
+    --gradient-purple-to-blue: linear-gradient(30deg, #6e60ff, #25abff);
+    --gradient-dark-to-blue: linear-gradient(352.54deg, #141F91 6.09%, #010167 94.5%);
+    --gradient-green: linear-gradient(225deg, #09E3D6 0%, #007ABF 100%);
+    --gradient-sky-blue: linear-gradient(225deg, #02DBE9 0%, #2757FF 100%);
+    --gradient-purple: linear-gradient(225deg, #4FAAFF 0%, #5523E3 100%);
+}
